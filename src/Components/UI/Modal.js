@@ -15,7 +15,7 @@ const Modal = (props) => {
       <Card className="modal">
         <div className="modal-content">
           <div className="modal-header">
-            <h4>Invalid Input</h4>
+            <h4>{props.modalTitle}</h4>
           </div>
           <div className="modal-body">
             <p>{props.bodyContent}</p>

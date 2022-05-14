@@ -1,11 +1,12 @@
 import User from "./User";
 import Card from "../UI/Card";
+import "./UserList.css";
 //his props is the array in app.js
 const UsersList = (props) => {
   console.log(props.usersData);
   return (
     <Card classes="">
-      <div className="users-list">
+      <ul className="users-list">
         {props.usersData.map((dataPoint) => {
           return (
             <User
@@ -15,7 +16,7 @@ const UsersList = (props) => {
             />
           );
         })}
-      </div>
+      </ul>
     </Card>
   );
 };

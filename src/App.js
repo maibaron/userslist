@@ -35,6 +35,7 @@ function App() {
         show={modalStat}
         onHideModal={hideModalHandler}
         bodyContent={modalBody}
+        modalTitle="Invalid Input"
       />
     </div>
   );
