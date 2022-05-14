@@ -44,7 +44,7 @@ const NewUserForm = (props) => {
   };
 
   return (
-    <Card className="">
+    <Card classes="">
       <form onSubmit={submitNewUserHandler}>
         <label>
           Username
