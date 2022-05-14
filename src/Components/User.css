@@ -1,0 +1,8 @@
+.userItem {
+  border: 1px solid rgb(188, 188, 188);
+  margin: 10px 10px;
+}
+.userItem p {
+  margin: 2px;
+  padding: 5px;
+}

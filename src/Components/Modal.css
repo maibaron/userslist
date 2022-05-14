@@ -1,0 +1,32 @@
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 720px;
+}
+.modal-content div {
+  padding: 10px;
+}
+.modal-header {
+  background-color: purple;
+}
+.modal-header h4 {
+  margin: 0;
+  font-size: larger;
+  color: white;
+}
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}

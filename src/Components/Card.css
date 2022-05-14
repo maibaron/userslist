@@ -1,0 +1,10 @@
+.card {
+  background-color: white;
+  border-radius: 12px;
+  max-width: 720px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-sizing: border-box;
+}
