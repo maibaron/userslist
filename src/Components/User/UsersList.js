@@ -5,11 +5,11 @@ const UsersList = (props) => {
   console.log(props.usersData);
   return (
     <Card classes="">
-      <div class="users-list">
+      <div className="users-list">
         {props.usersData.map((dataPoint) => {
           return (
             <User
-              key={dataPoint.key}
+              key={dataPoint.id}
               aUsername={dataPoint.username}
               anAge={dataPoint.age}
             />

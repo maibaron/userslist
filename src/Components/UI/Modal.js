@@ -12,7 +12,7 @@ const Modal = (props) => {
   };
   return (
     <div className="overlay" onClick={hideModalHandler}>
-      <Card classes="modal">
+      <Card className="modal">
         <div className="modal-content">
           <div className="modal-header">
             <h4>Invalid Input</h4>
