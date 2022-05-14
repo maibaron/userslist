@@ -1,5 +1,5 @@
 import User from "./User";
-import Card from "./Card";
+import Card from "../UI/Card";
 //his props is the array in app.js
 const UsersList = (props) => {
   console.log(props.usersData);

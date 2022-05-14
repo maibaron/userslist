@@ -1,3 +1,4 @@
+import Button from "./Button";
 import Card from "./Card";
 import "./Modal.css";
 const Modal = (props) => {
@@ -20,9 +21,14 @@ const Modal = (props) => {
             <p>{props.bodyContent}</p>
           </div>
           <div className="modal-footer">
-            <button className="button" onClick={hideModalHandler}>
-              Okay
-            </button>
+            <Button
+              buttonType="button"
+              buttonValue="Okay"
+              onClick={hideModalHandler}
+            />
+            {/* <button className="button" onClick={hideModalHandler}> */}
+            {/* Okay */}
+            {/* </button> */}
           </div>
         </div>
       </Card>

@@ -1,6 +1,7 @@
-import Card from "./Card";
+import Card from "../UI/Card";
 import "./NewUserForm.css";
 import { useState } from "react";
+import Button from "../UI/Button";
 //my only prop is the onAddNewUser pointer
 const NewUserForm = (props) => {
   //state for the username input
@@ -53,7 +54,8 @@ const NewUserForm = (props) => {
           Age
           <input type="number" onChange={enterAgeHandler} value={newAge} />
         </label>
-        <button type="submit">Add New User</button>
+        <Button buttonType="submit" buttonValue="Add User" />
+        {/* <button type="submit">Add New User</button> */}
       </form>
     </Card>
   );

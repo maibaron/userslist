@@ -1,9 +1,8 @@
 import "./App.css";
 import { useState } from "react";
-import NewUserForm from "./Components/NewUserForm.js";
-import UsersList from "./Components/UsersList";
-import Modal from "./Components/Modal";
-// import Modal from "./Components/Modal";
+import NewUserForm from "./Components/User/NewUserForm.js";
+import UsersList from "./Components/User/UsersList";
+import Modal from "./Components/UI/Modal";
 function App() {
   const [myUsers, setMyUsers] = useState([]);
   const [modalStat, setModalStat] = useState(false);
